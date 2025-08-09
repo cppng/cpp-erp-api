@@ -1,0 +1,235 @@
+[
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "NewEmployee",
+    "RelativePath": "api/hr/employee/create-new-employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.NewEmployeeRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpBasicUpdate",
+    "RelativePath": "api/hr/employee/emp-basic-info-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpBasicUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpContactUpdate",
+    "RelativePath": "api/hr/employee/emp-contact-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpContactUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpDetailsUpdate",
+    "RelativePath": "api/hr/employee/emp-details-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpDetailsUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpNokUpdate",
+    "RelativePath": "api/hr/employee/emp-next-of-kin-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpNokUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpSalaryUpdate",
+    "RelativePath": "api/hr/employee/emp-salary-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpSalaryUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpStatutoryUpdate",
+    "RelativePath": "api/hr/employee/emp-statutory-update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpStatutoryUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "Employees",
+    "RelativePath": "api/hr/employee/employee-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmployeesRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.UserController",
+    "Method": "UserToRole",
+    "RelativePath": "api/user/add-user-to-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.User.UserToRoleRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.UserController",
+    "Method": "NewUser",
+    "RelativePath": "api/user/create-new-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.User.NewUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.UserController",
+    "Method": "CreateRole",
+    "RelativePath": "api/user/create-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.User.RoleRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.UserController",
+    "Method": "Login",
+    "RelativePath": "api/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.User.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.UserController",
+    "Method": "RoleListing",
+    "RelativePath": "api/user/role-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.UserController",
+    "Method": "UserListing",
+    "RelativePath": "api/user/user-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Erp.Api.WeatherForecast, Erp.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

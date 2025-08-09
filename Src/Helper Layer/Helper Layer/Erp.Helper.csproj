@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Erp.Helper</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="SimpleSoft.Mediator" Version="2.2.0" />
+    <PackageReference Include="SimpleSoft.Mediator.Microsoft.Extensions" Version="2.2.0" />
+    <PackageReference Include="SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain Layer\Erp.Domain\Erp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

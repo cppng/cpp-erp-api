@@ -1,0 +1,15 @@
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\bin\Debug\net8.0\Erp.Helper.deps.json
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\bin\Debug\net8.0\Erp.Helper.dll
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\bin\Debug\net8.0\Erp.Helper.pdb
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\bin\Debug\net8.0\Erp.Domain.dll
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\bin\Debug\net8.0\Erp.Domain.pdb
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.csproj.AssemblyReference.cache
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.AssemblyInfoInputs.cache
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.AssemblyInfo.cs
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.csproj.Up2Date
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.dll
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\refint\Erp.Helper.dll
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.pdb
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\ref\Erp.Helper.dll

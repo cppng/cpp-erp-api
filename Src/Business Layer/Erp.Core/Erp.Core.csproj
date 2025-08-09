@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.1.2" />
+    <PackageReference Include="SimpleSoft.Mediator" Version="2.2.0" />
+    <PackageReference Include="SimpleSoft.Mediator.Microsoft.Extensions" Version="2.2.0" />
+    <PackageReference Include="SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Helper Layer\Helper Layer\Erp.Helper.csproj" />
+    <ProjectReference Include="..\..\Infrastructure Layer\Erp.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

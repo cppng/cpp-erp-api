@@ -1,0 +1,7 @@
+Migration
+=============
+dotnet ef migrations add ErpMigration  --project "Src\Data Layer\Erp.Persistence" --startup-project "Src\Presentation Layer\Api\Erp.Api"
+
+Update Database
+==============
+dotnet ef database update --project "Src\Data Layer\Erp.Persistence" --startup-project "Src\Presentation Layer\Api\Erp.Api" -- --environment Development

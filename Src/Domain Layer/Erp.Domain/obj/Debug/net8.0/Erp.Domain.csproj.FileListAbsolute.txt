@@ -1,0 +1,14 @@
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\bin\Debug\net8.0\Erp.Domain.deps.json
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\bin\Debug\net8.0\Erp.Domain.runtimeconfig.json
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\bin\Debug\net8.0\Erp.Domain.dll
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\bin\Debug\net8.0\Erp.Domain.pdb
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.csproj.AssemblyReference.cache
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.AssemblyInfoInputs.cache
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.AssemblyInfo.cs
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.dll
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\refint\Erp.Domain.dll
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.pdb
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.genruntimeconfig.cache
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\ref\Erp.Domain.dll

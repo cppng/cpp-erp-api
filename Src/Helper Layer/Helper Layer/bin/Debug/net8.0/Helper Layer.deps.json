@@ -1,0 +1,180 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Helper Layer/1.0.0": {
+        "dependencies": {
+          "SimpleSoft.Mediator": "2.2.0",
+          "SimpleSoft.Mediator.Microsoft.Extensions": "2.2.0",
+          "SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline": "2.2.0"
+        },
+        "runtime": {
+          "Helper Layer.dll": {}
+        }
+      },
+      "FluentValidation/10.0.4": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.0.4.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Primitives": "3.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.46305"
+          }
+        }
+      },
+      "SimpleSoft.Mediator/2.2.0": {
+        "dependencies": {
+          "SimpleSoft.Mediator.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleSoft.Mediator.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.21300"
+          }
+        }
+      },
+      "SimpleSoft.Mediator.Abstractions/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/SimpleSoft.Mediator.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.21300"
+          }
+        }
+      },
+      "SimpleSoft.Mediator.Microsoft.Extensions/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.0.0",
+          "SimpleSoft.Mediator": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleSoft.Mediator.Microsoft.Extensions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.21300"
+          }
+        }
+      },
+      "SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline/2.2.0": {
+        "dependencies": {
+          "FluentValidation": "10.0.4",
+          "Microsoft.Extensions.Options": "3.0.0",
+          "SimpleSoft.Mediator.Microsoft.Extensions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.2.0.21300"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Helper Layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/10.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LqEYHuF5gXBJzG9/aUQS50TJP5cZgh/twvPLV7iTtFFGF6isGBkNXOhr9VwmSjlFRIVOqcMtkGuHwuPbU+XpoQ==",
+      "path": "fluentvalidation/10.0.4",
+      "hashPath": "fluentvalidation.10.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ofQRroDlzJ0xKOtzNuaVt6QKNImFkhkG0lIMpGl7PtXnIf5SuLWBeiQZAP8DNSxDBJJdcsPkiJiMYK2WA5H8dQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+PsosTYZn+omucI0ff9eywo9QcPLwcbIWf7dz7ZLM1zGR8gVZXJ3wo6+tkuIedUNW5iWENlVJPEvrGjiVeoNNQ==",
+      "path": "microsoft.extensions.logging.abstractions/3.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aZuVhN/TC872Yb55nrb7an82sfSAdNYxIyzu3zbYHOnhwal5hdkBUxzuoYj1khI2sw0tWq6i82i624zEFmiJhg==",
+      "path": "microsoft.extensions.options/3.0.0",
+      "hashPath": "microsoft.extensions.options.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6gwewTbmOh+ZVBicVkL1XRp79sx4O7BVY6Yy+7OYZdwn3pyOKe9lOam+3gXJ3TZMjhJZdV0Ub8hxHt2vkrmN5Q==",
+      "path": "microsoft.extensions.primitives/3.0.0",
+      "hashPath": "microsoft.extensions.primitives.3.0.0.nupkg.sha512"
+    },
+    "SimpleSoft.Mediator/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5sHDuENTD5i1KUWk8sycTv3dE2NVQDqjxWlUIffOZVd/EXmUhQtqfYufnzoQ3VORWUdH2ddU+byXZwN/4bsC5g==",
+      "path": "simplesoft.mediator/2.2.0",
+      "hashPath": "simplesoft.mediator.2.2.0.nupkg.sha512"
+    },
+    "SimpleSoft.Mediator.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uKuTsjebu4Clh80KpUdOTTILvSAM34jNkWpfMaV0loCOW+S9Yo19g6bnavaiTZ6xe8jVJTz7n3NJNLZ0Yg9o4A==",
+      "path": "simplesoft.mediator.abstractions/2.2.0",
+      "hashPath": "simplesoft.mediator.abstractions.2.2.0.nupkg.sha512"
+    },
+    "SimpleSoft.Mediator.Microsoft.Extensions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-82F7v10RCF1uhNYIJHqTMiM0URUHWtBL2zgTAfh8nHBA6kilhDKtASlDxBH1Lc4spLXrpg8mvn397BmIU/ooTw==",
+      "path": "simplesoft.mediator.microsoft.extensions/2.2.0",
+      "hashPath": "simplesoft.mediator.microsoft.extensions.2.2.0.nupkg.sha512"
+    },
+    "SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IHxoVISq3wHs1np4lD2t+L8SgKqvLdHByEUfNLRRCYD6aFh1+H1KgsAF/ichlxACWoLyMtlBhHqQZQ91Cb0tKw==",
+      "path": "simplesoft.mediator.microsoft.extensions.validationpipeline/2.2.0",
+      "hashPath": "simplesoft.mediator.microsoft.extensions.validationpipeline.2.2.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.AssemblyInfo.cs
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Infrastructure.deps.json
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Infrastructure.dll
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Infrastructure.pdb
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Domain.dll
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Helper.dll
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Persistence.dll
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Persistence.pdb
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Domain.pdb
+C:\Projects\CppErp\Erp.Infrastructure\bin\Debug\net8.0\Erp.Helper.pdb
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infr.597F2FC8.Up2Date
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.dll
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\refint\Erp.Infrastructure.dll
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\Erp.Infrastructure.pdb
+C:\Projects\CppErp\Erp.Infrastructure\obj\Debug\net8.0\ref\Erp.Infrastructure.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.AssemblyInfo.cs
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Infrastructure.deps.json
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Infrastructure.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Infrastructure.pdb
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Domain.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Helper.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Persistence.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Persistence.pdb
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Domain.pdb
+C:\Projects\CppErp\Src\Infrastructure Layer\bin\Debug\net8.0\Erp.Helper.pdb
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infr.597F2FC8.Up2Date
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\refint\Erp.Infrastructure.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.pdb
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\ref\Erp.Infrastructure.dll

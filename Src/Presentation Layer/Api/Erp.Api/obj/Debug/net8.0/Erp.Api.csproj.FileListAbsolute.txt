@@ -1,0 +1,139 @@
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\appsettings.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.staticwebassets.endpoints.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.exe
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.deps.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.runtimeconfig.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.pdb
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.csproj.AssemblyReference.cache
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.AssemblyInfoInputs.cache
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.AssemblyInfo.cs
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\scopedcss\bundle\Erp.Api.styles.css
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.Erp.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.Erp.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Erp.Api.props
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Erp.Api.props
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Erp.Api.props
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.csproj.Up2Date
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\refint\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.pdb
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.genruntimeconfig.cache
+C:\Projects\CppErp\Src\Presentation\Api\Erp.Api\obj\Debug\net8.0\ref\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.csproj.AssemblyReference.cache
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.AssemblyInfoInputs.cache
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.AssemblyInfo.cs
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\appsettings.Development.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\appsettings.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.staticwebassets.endpoints.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.exe
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.deps.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.runtimeconfig.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Api.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Azure.Core.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Dapper.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Humanizer.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\MediatR.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\SimpleSoft.Mediator.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\SimpleSoft.Mediator.Abstractions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\SimpleSoft.Mediator.Microsoft.Extensions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\SimpleSoft.Mediator.Microsoft.Extensions.ValidationPipeline.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.CodeDom.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Core.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Domain.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Extensions.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Helper.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Infrastructure.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Persistence.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Persistence.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Extensions.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Core.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Domain.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Helper.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\bin\Debug\net8.0\Erp.Infrastructure.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\scopedcss\bundle\Erp.Api.styles.css
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.Erp.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.Erp.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Erp.Api.props
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Erp.Api.props
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Erp.Api.props
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.csproj.Up2Date
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\refint\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.pdb
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.genruntimeconfig.cache
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\ref\Erp.Api.dll
