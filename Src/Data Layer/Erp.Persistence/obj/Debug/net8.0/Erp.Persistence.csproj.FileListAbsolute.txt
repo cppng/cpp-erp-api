@@ -17,3 +17,4 @@ C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\refint\Erp.Pe
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.pdb
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.genruntimeconfig.cache
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\ref\Erp.Persistence.dll
+C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.sourcelink.json

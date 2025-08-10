@@ -12,3 +12,4 @@ C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\refint\Erp.Domai
 C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.pdb
 C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.genruntimeconfig.cache
 C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\ref\Erp.Domain.dll
+C:\Projects\CppErp\Src\Domain Layer\Erp.Domain\obj\Debug\net8.0\Erp.Domain.sourcelink.json

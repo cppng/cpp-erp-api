@@ -21,3 +21,4 @@ C:\Projects\CppErp\Src\Extension Layer\Erp.Extensions\obj\Debug\net8.0\Erp.Exten
 C:\Projects\CppErp\Src\Extension Layer\Erp.Extensions\obj\Debug\net8.0\refint\Erp.Extensions.dll
 C:\Projects\CppErp\Src\Extension Layer\Erp.Extensions\obj\Debug\net8.0\Erp.Extensions.pdb
 C:\Projects\CppErp\Src\Extension Layer\Erp.Extensions\obj\Debug\net8.0\ref\Erp.Extensions.dll
+C:\Projects\CppErp\Src\Extension Layer\Erp.Extensions\obj\Debug\net8.0\Erp.Extensions.sourcelink.json

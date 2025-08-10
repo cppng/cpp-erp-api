@@ -3,6 +3,7 @@ using Erp.Core.User.EmpContactUpdate.BusService;
 using Erp.Core.User.EmpDetailsUpdate.BusService;
 using Erp.Core.User.EmployeeList.BusService;
 using Erp.Core.User.EmpNokUpdate.BusService;
+using Erp.Core.User.EmpNokUpdate.SaveEmpPayElem;
 using Erp.Core.User.EmpSalaryUpdate.BusService;
 using Erp.Core.User.EmpStatutoryUpdate.BusService;
 using Erp.Core.User.Login.BusService;
@@ -38,6 +39,7 @@ namespace Erp.Extensions.Dependencies.ApplicationCore
             services.AddScoped<IEmpDetailsUpdateCoreService, EmpDetailsUpdateCoreService>();
             services.AddScoped<IEmpSalaryUpdateCoreService, EmpSalaryUpdateCoreService>();
             services.AddScoped<IEmpStatutoryUpdateCoreService, EmpStatutoryUpdateCoreService>();
+            services.AddScoped<ISaveEmpPayElemCoreService, SaveEmpPayElemCoreService>();
 
             return services;
         }

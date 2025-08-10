@@ -97,6 +97,22 @@
   },
   {
     "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpSavePayElem",
+    "RelativePath": "api/hr/employee/emp-save-pay-elem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpPayElemRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
     "Method": "EmpStatutoryUpdate",
     "RelativePath": "api/hr/employee/emp-statutory-update",
     "HttpMethod": "POST",

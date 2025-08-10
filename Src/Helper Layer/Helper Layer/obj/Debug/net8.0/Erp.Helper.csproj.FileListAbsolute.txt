@@ -13,3 +13,4 @@ C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.dll
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\refint\Erp.Helper.dll
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.pdb
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\ref\Erp.Helper.dll
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.sourcelink.json

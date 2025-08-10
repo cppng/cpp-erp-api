@@ -253,6 +253,37 @@
         }
       }
     },
+    "/api/hr/employee/emp-save-pay-elem": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmpPayElemRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmpPayElemRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmpPayElemRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/user/create-new-user": {
       "post": {
         "tags": [
@@ -635,6 +666,36 @@
           "relationship": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmpPayElemRequestDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "employeeSlug": {
+            "type": "string",
+            "nullable": true
+          },
+          "entryType": {
+            "type": "string",
+            "nullable": true
+          },
+          "elementCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

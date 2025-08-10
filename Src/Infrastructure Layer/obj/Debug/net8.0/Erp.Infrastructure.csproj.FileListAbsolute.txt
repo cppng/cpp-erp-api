@@ -36,3 +36,4 @@ C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.
 C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\refint\Erp.Infrastructure.dll
 C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.pdb
 C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\ref\Erp.Infrastructure.dll
+C:\Projects\CppErp\Src\Infrastructure Layer\obj\Debug\net8.0\Erp.Infrastructure.sourcelink.json

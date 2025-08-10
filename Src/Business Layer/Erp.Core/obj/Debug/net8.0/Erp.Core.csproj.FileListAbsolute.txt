@@ -19,3 +19,4 @@ C:\Projects\CppErp\Src\Business Layer\Erp.Core\obj\Debug\net8.0\Erp.Core.dll
 C:\Projects\CppErp\Src\Business Layer\Erp.Core\obj\Debug\net8.0\refint\Erp.Core.dll
 C:\Projects\CppErp\Src\Business Layer\Erp.Core\obj\Debug\net8.0\Erp.Core.pdb
 C:\Projects\CppErp\Src\Business Layer\Erp.Core\obj\Debug\net8.0\ref\Erp.Core.dll
+C:\Projects\CppErp\Src\Business Layer\Erp.Core\obj\Debug\net8.0\Erp.Core.sourcelink.json

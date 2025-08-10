@@ -3,6 +3,7 @@ using Erp.Core.User.EmpContactUpdate.BusService;
 using Erp.Core.User.EmpDetailsUpdate.BusService;
 using Erp.Core.User.EmployeeList.BusService;
 using Erp.Core.User.EmpNokUpdate.BusService;
+using Erp.Core.User.EmpNokUpdate.SaveEmpPayElem;
 using Erp.Core.User.EmpSalaryUpdate.BusService;
 using Erp.Core.User.EmpStatutoryUpdate.BusService;
 using Erp.Core.User.NewEmployee.BusService;
@@ -24,6 +25,7 @@ namespace Erp.Api.Controllers.User
         private readonly IEmpDetailsUpdateCoreService _empDetailsUpdateCoreService;
         private readonly IEmpSalaryUpdateCoreService _empSalaryUpdateCoreService;
         private readonly IEmpStatutoryUpdateCoreService _empStatutoryUpdateCoreService;
+        private readonly ISaveEmpPayElemCoreService _saveEmpPayElemCoreService;
 
         public EmployeeController(
             INewEmployeeCoreService newEmployeeCoreService,
@@ -33,7 +35,8 @@ namespace Erp.Api.Controllers.User
             IEmpNokUpdateCoreService empNokUpdateCoreService,
             IEmpDetailsUpdateCoreService empDetailsUpdateCoreService,
             IEmpSalaryUpdateCoreService empSalaryUpdateCoreService,
-            IEmpStatutoryUpdateCoreService empStatutoryUpdateCoreService
+            IEmpStatutoryUpdateCoreService empStatutoryUpdateCoreService,
+            ISaveEmpPayElemCoreService saveEmpPayElemCoreService
         )
         {
             _newEmployeeCoreService = newEmployeeCoreService ?? throw new ArgumentNullException(nameof(newEmployeeCoreService));
@@ -44,6 +47,7 @@ namespace Erp.Api.Controllers.User
             _empDetailsUpdateCoreService = empDetailsUpdateCoreService ?? throw new ArgumentNullException(nameof(empDetailsUpdateCoreService));
             _empSalaryUpdateCoreService = empSalaryUpdateCoreService ?? throw new ArgumentNullException(nameof(empSalaryUpdateCoreService));
             _empStatutoryUpdateCoreService = empStatutoryUpdateCoreService ?? throw new ArgumentNullException(nameof(empStatutoryUpdateCoreService));
+            _saveEmpPayElemCoreService = saveEmpPayElemCoreService ?? throw new ArgumentNullException(nameof(saveEmpPayElemCoreService));
         }
 
         [HttpPost("create-new-employee")]
@@ -69,6 +73,9 @@ namespace Erp.Api.Controllers.User
 
         [HttpPost("emp-statutory-update")]
         public async Task<IActionResult> EmpStatutoryUpdate([FromBody] EmpStatutoryUpdateRequestDto request, CancellationToken ct) => Response(await _empStatutoryUpdateCoreService.Execute(request, ct).ConfigureAwait(false));
+        
+        [HttpPost("emp-save-pay-elem")]
+        public async Task<IActionResult> EmpSavePayElem([FromBody] EmpPayElemRequestDto request, CancellationToken ct) => Response(await _saveEmpPayElemCoreService.Execute(request, ct).ConfigureAwait(false));
 
     }
 }

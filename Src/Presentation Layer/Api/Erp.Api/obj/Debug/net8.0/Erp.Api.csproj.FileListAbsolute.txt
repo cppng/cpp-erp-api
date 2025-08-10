@@ -137,3 +137,4 @@ C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\refint\Er
 C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.pdb
 C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.genruntimeconfig.cache
 C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\ref\Erp.Api.dll
+C:\Projects\CppErp\Src\Presentation Layer\Api\Erp.Api\obj\Debug\net8.0\Erp.Api.sourcelink.json
