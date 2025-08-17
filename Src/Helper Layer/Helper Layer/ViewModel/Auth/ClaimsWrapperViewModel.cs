@@ -8,7 +8,7 @@ namespace Erp.Helper.ViewModel.Auth
 {
     public class ClaimsWrapperViewModel
     {
-        public string Fullname { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         public string Username { get; set; } = string.Empty;
         public string Tenant { get; set; } = string.Empty;
         public Guid UserId { get; set; }

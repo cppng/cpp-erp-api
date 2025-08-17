@@ -33,6 +33,38 @@
   },
   {
     "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmployeeBySlug",
+    "RelativePath": "api/hr/employee/emp-by-slug/{slug}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmployeeByUsername",
+    "RelativePath": "api/hr/employee/emp-by-username/{username}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
     "Method": "EmpContactUpdate",
     "RelativePath": "api/hr/employee/emp-contact-update",
     "HttpMethod": "POST",
@@ -65,6 +97,22 @@
   },
   {
     "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpLoginAccess",
+    "RelativePath": "api/hr/employee/emp-login-access",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpLoginAccessRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
     "Method": "EmpNokUpdate",
     "RelativePath": "api/hr/employee/emp-next-of-kin-update",
     "HttpMethod": "POST",
@@ -74,6 +122,22 @@
       {
         "Name": "request",
         "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpNokUpdateRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "Method": "EmpPayElemList",
+    "RelativePath": "api/hr/employee/emp-pay-elem-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmpPayElemListRequestDto",
         "IsRequired": true
       }
     ],

@@ -29,10 +29,8 @@ public class TokenGenerator : ITokenGenerator
                 {
                     new Claim(ClaimTypes.NameIdentifier, tokenUserDetails.UserId.ToString()),
                     new Claim(ClaimTypes.Name, tokenUserDetails.Username.ToLower()),
-                    new Claim(ClaimTypes.Email, tokenUserDetails.Email),
                     new Claim(ClaimTypes.Role, tokenUserDetails.Role == default ? "Anonymous" : tokenUserDetails.Role),
-                    new Claim(nameof(ClaimsWrapperViewModel.Fullname),  tokenUserDetails.Fullname == default ? string.Empty : tokenUserDetails.Fullname),
-                    new Claim(nameof(ClaimsWrapperViewModel.PhoneNumber),  tokenUserDetails.PhoneNumber == default ? string.Empty : tokenUserDetails.PhoneNumber),
+                    new Claim(nameof(ClaimsWrapperViewModel.Name),  tokenUserDetails.Name == default ? string.Empty : tokenUserDetails.Name),
                     new Claim(nameof(ClaimsWrapperViewModel.RegistrationStatus),  tokenUserDetails.RegistrationStatus == default ? string.Empty : tokenUserDetails.RegistrationStatus),
                     new Claim(nameof(ClaimsWrapperViewModel.Tenant),  tokenUserDetails.Tenant == default ? string.Empty : tokenUserDetails.Tenant),
                     new Claim(nameof(ClaimsWrapperViewModel.UserId),  tokenUserDetails.UserId == default ? string.Empty : tokenUserDetails.UserId.ToString()),

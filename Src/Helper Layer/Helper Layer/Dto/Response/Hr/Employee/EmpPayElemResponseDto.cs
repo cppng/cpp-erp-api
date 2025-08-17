@@ -1,4 +1,5 @@
-﻿using Erp.Helper.Dto.Response.User;
+﻿using Erp.Domain.Entities.Hr;
+using Erp.Helper.Dto.Response.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,15 @@ namespace Erp.Helper.Dto.Response.Hr.Employee
         public int StatusCode { get; set; }
         public string Message { get; set; } = string.Empty;
         public EmpPayElemResponseDto data { get; set; } = new EmpPayElemResponseDto();
+    }
+
+    public class EmpPayElemListBaseResponseDto
+    {
+        public string ResponseCode { get; set; } = string.Empty;
+        public bool Success { get; set; }
+        [JsonIgnore]
+        public int StatusCode { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public List<EmpPayElemEntity> data { get; set; } = new List<EmpPayElemEntity>();
     }
 }

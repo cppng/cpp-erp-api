@@ -17,5 +17,6 @@ namespace Erp.Persistence.Context
 
         public DbSet<UserEntity> UserEntities { get; set; }
         public DbSet<EmployeeEntity> EmployeeEntities { get; set; }
+        public DbSet<EmpPayElemEntity> EmpPayElemEntities { get; set; }
     }
 }

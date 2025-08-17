@@ -52,5 +52,112 @@ public class EmployeeInfraService : IEmployeeInfraService
         }
     }
 
-    
+    public async Task<EmployeeDetailsBaseResponseDto> GetEmployeeBySlug(string slug, string username, CancellationToken ct)
+    {
+        try
+        {
+
+            var employee = await _context.EmployeeEntities.Where(x=>x.Slug == slug).FirstOrDefaultAsync();
+
+            if (employee == default) {
+                return new EmployeeDetailsBaseResponseDto
+                {
+                    ResponseCode = AppResponseCode.RecordNotFound,
+                    Message = "Could not get employee record.",
+                    StatusCode = HttpResponseCode.RecordNotFound,
+                    Success = false,
+                };
+            }
+
+            return new EmployeeDetailsBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.Success,
+                Message = "Success",
+                StatusCode = HttpResponseCode.Success,
+                Success = true,
+                data = employee
+            };
+
+        }
+        catch (Exception ex)
+        {
+            return new EmployeeDetailsBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.InternalError,
+                Message = "Failed to create user. Please try again",
+                StatusCode = HttpResponseCode.InternalError,
+                Success = false,
+            };
+        }
+    }
+
+    public async Task<EmployeeDetailsBaseResponseDto> GetEmployeeByUsername(string username, CancellationToken ct)
+    {
+        try
+        {
+
+            var employee = await _context.EmployeeEntities.Where(x => x.EmployeeUsername == username).FirstOrDefaultAsync();
+
+            if (employee == default)
+            {
+                return new EmployeeDetailsBaseResponseDto
+                {
+                    ResponseCode = AppResponseCode.RecordNotFound,
+                    Message = "Could not get employee record.",
+                    StatusCode = HttpResponseCode.RecordNotFound,
+                    Success = false,
+                };
+            }
+
+            return new EmployeeDetailsBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.Success,
+                Message = "Success",
+                StatusCode = HttpResponseCode.Success,
+                Success = true,
+                data = employee
+            };
+
+        }
+        catch (Exception ex)
+        {
+            return new EmployeeDetailsBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.InternalError,
+                Message = "Failed to create user. Please try again",
+                StatusCode = HttpResponseCode.InternalError,
+                Success = false,
+            };
+        }
+    }
+
+    public async Task<EmpPayElemListBaseResponseDto> GetEmpPayElemList(EmpPayElemListCommand request, CancellationToken ct)
+    {
+        try
+        {
+
+            var elems = await _context.EmpPayElemEntities.Where(x=>x.EmployeeSlug == request.Slug).ToListAsync();
+
+            return new EmpPayElemListBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.Success,
+                Message = "Success",
+                StatusCode = HttpResponseCode.Success,
+                Success = true,
+                data = elems
+            };
+
+        }
+        catch (Exception ex)
+        {
+            return new EmpPayElemListBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.InternalError,
+                Message = "Failed to create user. Please try again",
+                StatusCode = HttpResponseCode.InternalError,
+                Success = false,
+            };
+        }
+    }
+
 }

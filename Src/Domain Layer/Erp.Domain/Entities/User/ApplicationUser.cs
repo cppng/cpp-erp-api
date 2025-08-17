@@ -10,9 +10,6 @@ namespace Erp.Domain.Entities.User
     public class ApplicationUser : IdentityUser
     {
         public Guid UserId { get; set; }
-        public string Title { get; set; } = string.Empty;
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string MiddleName { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
     }
 }

@@ -10,11 +10,7 @@ namespace Erp.Helper.Dto.Response.User
     public class NewUserResponseDto
     {
         public string UserId { get; set; } = string.Empty;
-        public string Title { get; set; } = string.Empty;
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string MiddleName { get; set; } = string.Empty;
-        public string FullName { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         public string Username { get; set; } = string.Empty;
     }
 
@@ -25,7 +21,6 @@ namespace Erp.Helper.Dto.Response.User
         [JsonIgnore]
         public int StatusCode { get; set; }
         public string Message { get; set; } = string.Empty;
-
         public NewUserResponseDto data { get; set; } = new NewUserResponseDto();
     }
 }

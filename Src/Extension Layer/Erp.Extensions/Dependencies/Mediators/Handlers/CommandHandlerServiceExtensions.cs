@@ -29,6 +29,8 @@ namespace Erp.Extensions.Dependencies.Mediators.Handlers
             services.AddTransient<ICommandHandler<EmpSalaryUpdateCommand, EmpSalaryUpdateBaseResponseDto>, EmpSalaryUpdateCommandHandler>();
             services.AddTransient<ICommandHandler<EmpStatutoryUpdateCommand, EmpStatutoryUpdateBaseResponseDto>, EmpStatutoryUpdateCommandHandler>();
             services.AddTransient<ICommandHandler<EmpPayElemCommand, EmpPayElemBaseResponseDto>, SaveEmpPayElemCommandHandler>();
+            services.AddTransient<ICommandHandler<EmpPayElemListCommand, EmpPayElemListBaseResponseDto>, EmpPayElemListCommandHandler>();
+            services.AddTransient<ICommandHandler<EmpLoginAccessCommand, EmpLoginAccessBaseResponseDto>, EmpLoginAccessCommandHandler>();
 
             return services;
         }

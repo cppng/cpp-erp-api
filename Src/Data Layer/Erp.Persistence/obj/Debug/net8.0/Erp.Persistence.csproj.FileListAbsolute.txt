@@ -11,10 +11,10 @@ C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persisten
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.AssemblyInfoInputs.cache
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.AssemblyInfo.cs
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.sourcelink.json
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Pers.6BBCF9FB.Up2Date
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.dll
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\refint\Erp.Persistence.dll
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.pdb
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.genruntimeconfig.cache
 C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\ref\Erp.Persistence.dll
-C:\Projects\CppErp\Src\Data Layer\Erp.Persistence\obj\Debug\net8.0\Erp.Persistence.sourcelink.json

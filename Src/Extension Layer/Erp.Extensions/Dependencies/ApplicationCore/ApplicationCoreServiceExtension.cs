@@ -1,9 +1,13 @@
-﻿using Erp.Core.User.EmpBasicUpdate.BusService;
+﻿using Erp.Core.Hr.ByUsername.BusService;
+using Erp.Core.Hr.EmpBySlug.BusService;
+using Erp.Core.User.EmpBasicUpdate.BusService;
 using Erp.Core.User.EmpContactUpdate.BusService;
 using Erp.Core.User.EmpDetailsUpdate.BusService;
+using Erp.Core.User.EmpLoginAccess.BusService;
 using Erp.Core.User.EmployeeList.BusService;
 using Erp.Core.User.EmpNokUpdate.BusService;
 using Erp.Core.User.EmpNokUpdate.SaveEmpPayElem;
+using Erp.Core.User.EmpPayElemList.BusService;
 using Erp.Core.User.EmpSalaryUpdate.BusService;
 using Erp.Core.User.EmpStatutoryUpdate.BusService;
 using Erp.Core.User.Login.BusService;
@@ -40,6 +44,10 @@ namespace Erp.Extensions.Dependencies.ApplicationCore
             services.AddScoped<IEmpSalaryUpdateCoreService, EmpSalaryUpdateCoreService>();
             services.AddScoped<IEmpStatutoryUpdateCoreService, EmpStatutoryUpdateCoreService>();
             services.AddScoped<ISaveEmpPayElemCoreService, SaveEmpPayElemCoreService>();
+            services.AddScoped<IEmpPayElemListCoreService, EmpPayElemListCoreService>();
+            services.AddScoped<IEmpBySlugCoreService, EmpBySlugCoreService>();
+            services.AddScoped<IEmpByUsernameCoreService, EmpByUsernameCoreService>();
+            services.AddScoped<IEmpLoginAccessCoreService, EmpLoginAccessCoreService>();
 
             return services;
         }

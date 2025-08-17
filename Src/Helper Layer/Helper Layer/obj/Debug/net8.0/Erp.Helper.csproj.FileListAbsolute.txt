@@ -8,9 +8,9 @@ C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.Gen
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.AssemblyInfoInputs.cache
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.AssemblyInfo.cs
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.csproj.CoreCompileInputs.cache
+C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.sourcelink.json
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.csproj.Up2Date
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.dll
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\refint\Erp.Helper.dll
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.pdb
 C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\ref\Erp.Helper.dll
-C:\Projects\CppErp\Src\Helper Layer\Helper Layer\obj\Debug\net8.0\Erp.Helper.sourcelink.json

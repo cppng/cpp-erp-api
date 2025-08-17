@@ -14,13 +14,8 @@ namespace Erp.Helper.Dto.Response.User
 
         public Guid Id { get; set; }
         public Guid UserId { get; set; }
-        public string Title { get; set; } = string.Empty;
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string MiddleName { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         public string UserName { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string PhoneNumber { get; set; } = string.Empty;
 
     }
 
@@ -31,7 +26,6 @@ namespace Erp.Helper.Dto.Response.User
         [JsonIgnore]
         public int StatusCode { get; set; }
         public string Message { get; set; } = string.Empty;
-
         public List<UserResponseDto> data { get; set; } = new List<UserResponseDto>();
     }
 }

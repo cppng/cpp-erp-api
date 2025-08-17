@@ -22,5 +22,6 @@ public class MappingProfiles: Profile
         CreateMap<EmpSalaryUpdateCommand, EmpSalaryUpdateRequestDto>().ReverseMap();
         CreateMap<EmpStatutoryUpdateCommand, EmpStatutoryUpdateRequestDto>().ReverseMap();
         CreateMap<EmpPayElemCommand, EmpPayElemRequestDto>().ReverseMap();
+        CreateMap<EmpLoginAccessCommand, EmpLoginAccessRequestDto>().ReverseMap();
     }
 }

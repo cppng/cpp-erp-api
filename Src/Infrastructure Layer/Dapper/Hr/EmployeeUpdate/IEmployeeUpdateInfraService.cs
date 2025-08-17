@@ -16,5 +16,6 @@ namespace Erp.Infrastructure.Dapper.Hr.EmployeeUpdate
         Task<EmpDetailsUpdateBaseResponseDto> EmployeeDetailsUpdate(EmpDetailsUpdateCommand request, CancellationToken ct);
         Task<EmpSalaryUpdateBaseResponseDto> EmployeeSalaryUpdate(EmpSalaryUpdateCommand request, CancellationToken ct);
         Task<EmpStatutoryUpdateBaseResponseDto> EmployeeStatutoryUpdate(EmpStatutoryUpdateCommand request, CancellationToken ct);
+        Task<EmpLoginAccessBaseResponseDto> EmployeeLoginAccess(EmpLoginAccessCommand request, CancellationToken ct);
     }
 }

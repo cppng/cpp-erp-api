@@ -36,7 +36,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
     options.Password.RequiredLength = 5;
     options.SignIn.RequireConfirmedAccount = false;
     options.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._";
-    options.User.RequireUniqueEmail = true;
+    options.SignIn.RequireConfirmedEmail = false;
+    options.User.RequireUniqueEmail = false;
 })
 .AddEntityFrameworkStores<ErpDbContext>()
 .AddDefaultTokenProviders();

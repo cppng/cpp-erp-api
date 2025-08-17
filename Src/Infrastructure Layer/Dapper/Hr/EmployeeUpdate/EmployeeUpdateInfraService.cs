@@ -274,4 +274,37 @@ public class EmployeeUpdateInfraService: IEmployeeUpdateInfraService
             };
         }
     }
+
+    public async Task<EmpLoginAccessBaseResponseDto> EmployeeLoginAccess(EmpLoginAccessCommand request, CancellationToken ct)
+    {
+        try
+        {
+
+            _dbParams = new DynamicParameters();
+
+            _dbParams.Add("Slug", dbType: DbType.String, value: request.Slug, direction: ParameterDirection.Input);
+            _dbParams.Add("EmployeeUsername", dbType: DbType.String, value: request.EmployeeUsername, direction: ParameterDirection.Input);
+
+            var result = await Task.FromResult(_dapperService.Get<EmpLoginAccessResponseDto>("proc_HR_Employee_Login_Access_Update", _dbParams, commandType: CommandType.StoredProcedure));
+
+            return new EmpLoginAccessBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.Success,
+                Message = "Success",
+                StatusCode = HttpResponseCode.Success,
+                Success = true,
+                data = result
+            };
+        }
+        catch (Exception ex)
+        {
+            return new EmpLoginAccessBaseResponseDto
+            {
+                ResponseCode = AppResponseCode.InternalError,
+                Message = "Login was not successful. Please try again",
+                StatusCode = HttpResponseCode.InternalError,
+                Success = false,
+            };
+        }
+    }
 }

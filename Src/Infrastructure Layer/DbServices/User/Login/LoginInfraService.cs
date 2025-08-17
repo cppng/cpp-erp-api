@@ -63,9 +63,7 @@ namespace Erp.Infrastructure.DbServices.User.Login
                 var token = await _tokenGenerator.GenerateToken(new TokenUserDetailsViewModel
                 {
                     RegistrationStatus = "",
-                    Email = user.Email,
-                    Fullname = $"{user.FirstName} {user.MiddleName} {user.LastName}",
-                    PhoneNumber = user.PhoneNumber,
+                    Name = user.Name,
                     Role = "",
                     UserId = user.UserId.ToString(),
                     Username = user.UserName,
@@ -91,8 +89,8 @@ namespace Erp.Infrastructure.DbServices.User.Login
                     Success = true,
                     data = new LoginResponseDto
                     {
-                        Name = user.FirstName,
-                        Username = user.FirstName,
+                        Name = user.Name,
+                        Username = user.UserName,
                         AccessToken = token.AccessToken                    
                     }
                 };

@@ -68,11 +68,7 @@ public class UserManagementInfraService : IUserManagementInfraService
                 data = new NewUserResponseDto
                 {
                     UserId = user.Id,
-                    Title = user.FirstName,
-                    FirstName = user.Title,
-                    LastName = user.LastName,
-                    MiddleName = user.MiddleName,
-                    FullName = $"{user.FirstName} {user.MiddleName} {user.LastName}",
+                    Name = user.Name,
                     Username = user.UserName,
                 }
             };

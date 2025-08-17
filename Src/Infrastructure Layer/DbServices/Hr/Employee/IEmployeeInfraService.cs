@@ -11,5 +11,8 @@ namespace Erp.Infrastructure.DbServices.Hr.Employee
     public interface IEmployeeInfraService
     {
         Task<EmployeesBaseResponseDto> GetEmployees(EmployeesCommand request, CancellationToken ct);
+        Task<EmployeeDetailsBaseResponseDto> GetEmployeeBySlug(string slug, string username, CancellationToken ct);
+        Task<EmployeeDetailsBaseResponseDto> GetEmployeeByUsername(string username, CancellationToken ct);
+        Task<EmpPayElemListBaseResponseDto> GetEmpPayElemList(EmpPayElemListCommand request, CancellationToken ct);
     }
 }
