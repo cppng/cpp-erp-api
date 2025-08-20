@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Erp.Infrastructure.Dapper.Hr.NewEmployee
+namespace Erp.Infrastructure.Dapper.Hr.Employee.NewEmployee
 {
     public interface INewEmployeeInfraService
     {

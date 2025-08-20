@@ -1,5 +1,6 @@
 ﻿using Erp.Core.Hr.ByUsername.BusService;
 using Erp.Core.Hr.EmpBySlug.BusService;
+using Erp.Core.Payroll.RunSalary.BusService;
 using Erp.Core.User.EmpBasicUpdate.BusService;
 using Erp.Core.User.EmpContactUpdate.BusService;
 using Erp.Core.User.EmpDetailsUpdate.BusService;
@@ -14,7 +15,7 @@ using Erp.Core.User.NewEmployee.BusService;
 using Erp.Helper.Dto.Request.Hr.Employee;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Erp.Api.Controllers.User
+namespace Erp.Api.Controllers.Hr
 {
     [Route("api/hr/employee")]
     [ApiController]

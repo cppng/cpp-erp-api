@@ -1,8 +1,8 @@
 ﻿using Erp.Helper.Commands.Hr.Employee;
 using Erp.Helper.Dto.Response.Hr.Employee;
 using Erp.Helper.Dto.Response;
-using Erp.Infrastructure.Dapper.Hr.EmployeeUpdate;
 using SimpleSoft.Mediator;
+using Erp.Infrastructure.Dapper.Hr.Employee.EmployeeUpdate;
 
 public class EmpDetailsUpdateCommandHandler : ICommandHandler<EmpDetailsUpdateCommand, EmpDetailsUpdateBaseResponseDto>
 {

@@ -1,5 +1,4 @@
 ﻿using Erp.Helper.Configuration.Auth;
-using Erp.Infrastructure.Dapper.Hr.NewEmployee;
 using Erp.Infrastructure.DbServices.User.Login;
 using Erp.Infrastructure.DbServices.User.NewUser;
 using Erp.Infrastructure.DbServices.User.Role;

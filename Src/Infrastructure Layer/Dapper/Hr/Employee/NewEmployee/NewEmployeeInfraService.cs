@@ -12,9 +12,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Erp.Infrastructure.Dapper.Hr.NewEmployee;
+namespace Erp.Infrastructure.Dapper.Hr.Employee.NewEmployee;
 
-public class NewEmployeeInfraService: INewEmployeeInfraService
+public class NewEmployeeInfraService : INewEmployeeInfraService
 {
     private readonly IDapperService _dapperService;
     private DynamicParameters _dbParams;
@@ -24,8 +24,8 @@ public class NewEmployeeInfraService: INewEmployeeInfraService
         _dapperService = dapperService ?? throw new ArgumentNullException(nameof(dapperService));
     }
 
-   public async Task<NewEmployeeBaseResponseDto> CreateEmployee(NewEmployeeCommand request, CancellationToken ct)
-   {
+    public async Task<NewEmployeeBaseResponseDto> CreateEmployee(NewEmployeeCommand request, CancellationToken ct)
+    {
         try
         {
 

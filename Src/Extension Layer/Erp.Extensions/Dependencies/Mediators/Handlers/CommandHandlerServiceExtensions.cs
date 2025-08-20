@@ -1,11 +1,14 @@
-﻿using Erp.Core.User.EmployeeList.Handler.Command;
+﻿using Erp.Core.Payroll.RunSalary.Handler.Command;
+using Erp.Core.User.EmployeeList.Handler.Command;
 using Erp.Core.User.Login.Handler.Command;
 using Erp.Core.User.NewEmployee.Handler.Command;
 using Erp.Core.User.NewUser.Handler.Command;
 using Erp.Core.User.Role.Handler.Command;
 using Erp.Helper.Commands.Hr.Employee;
+using Erp.Helper.Commands.Hr.Payroll;
 using Erp.Helper.Commands.User;
 using Erp.Helper.Dto.Response.Hr.Employee;
+using Erp.Helper.Dto.Response.Hr.Payroll;
 using Erp.Helper.Dto.Response.User;
 using Microsoft.Extensions.DependencyInjection;
 using SimpleSoft.Mediator;
@@ -31,6 +34,8 @@ namespace Erp.Extensions.Dependencies.Mediators.Handlers
             services.AddTransient<ICommandHandler<EmpPayElemCommand, EmpPayElemBaseResponseDto>, SaveEmpPayElemCommandHandler>();
             services.AddTransient<ICommandHandler<EmpPayElemListCommand, EmpPayElemListBaseResponseDto>, EmpPayElemListCommandHandler>();
             services.AddTransient<ICommandHandler<EmpLoginAccessCommand, EmpLoginAccessBaseResponseDto>, EmpLoginAccessCommandHandler>();
+            services.AddTransient<ICommandHandler<RunSalaryCommand, RunSalaryBaseResponseDto>, RunSalaryCommandHandler>();
+            services.AddTransient<ICommandHandler<PayslipCommand, PayslipBaseResponseDto>, PayslipCommandHandler>();
 
             return services;
         }

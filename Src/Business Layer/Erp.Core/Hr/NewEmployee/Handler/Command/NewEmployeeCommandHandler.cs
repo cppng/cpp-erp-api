@@ -10,7 +10,7 @@ using Erp.Infrastructure.DbServices.User.NewUser;
 using Erp.Infrastructure.DbServices.User.UserManagement;
 using Erp.Helper.Dto.Response.Hr.Employee;
 using Erp.Helper.Commands.Hr.Employee;
-using Erp.Infrastructure.Dapper.Hr.NewEmployee;
+using Erp.Infrastructure.Dapper.Hr.Employee.NewEmployee;
 
 namespace Erp.Core.User.NewEmployee.Handler.Command;
 

@@ -14,9 +14,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Erp.Infrastructure.Dapper.Hr.EmployeeUpdate;
+namespace Erp.Infrastructure.Dapper.Hr.Employee.EmployeeUpdate;
 
-public class EmployeeUpdateInfraService: IEmployeeUpdateInfraService
+public class EmployeeUpdateInfraService : IEmployeeUpdateInfraService
 {
     private readonly IDapperService _dapperService;
     private DynamicParameters _dbParams;
@@ -26,8 +26,8 @@ public class EmployeeUpdateInfraService: IEmployeeUpdateInfraService
         _dapperService = dapperService ?? throw new ArgumentNullException(nameof(dapperService));
     }
 
-   public async Task<EmpBasicUpdateBaseResponseDto> BasicInfoUpdate(EmpBasicUpdateCommand request, CancellationToken ct)
-   {
+    public async Task<EmpBasicUpdateBaseResponseDto> BasicInfoUpdate(EmpBasicUpdateCommand request, CancellationToken ct)
+    {
         try
         {
 
@@ -153,7 +153,7 @@ public class EmployeeUpdateInfraService: IEmployeeUpdateInfraService
             CultureInfo provider = CultureInfo.InvariantCulture;
             var dtFormat = "yyyy-MM-ddTHH:mm:ss.fffZ";
 
-            DateTime? joinedDt = string.IsNullOrEmpty(request.JoinedDate)? null: DateTime.ParseExact(request.JoinedDate, dtFormat, provider);
+            DateTime? joinedDt = string.IsNullOrEmpty(request.JoinedDate) ? null : DateTime.ParseExact(request.JoinedDate, dtFormat, provider);
             DateTime? probDt = string.IsNullOrEmpty(request.ProbationEndDate) ? null : DateTime.ParseExact(request.ProbationEndDate, dtFormat, provider);
             DateTime? csDt = string.IsNullOrEmpty(request.ContractStartDate) ? null : DateTime.ParseExact(request.ContractStartDate, dtFormat, provider);
             DateTime? cedDt = string.IsNullOrEmpty(request.ContractEndDate) ? null : DateTime.ParseExact(request.ContractEndDate, dtFormat, provider);

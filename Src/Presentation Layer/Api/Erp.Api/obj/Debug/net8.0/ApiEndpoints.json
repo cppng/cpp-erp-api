@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "NewEmployee",
     "RelativePath": "api/hr/employee/create-new-employee",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpBasicUpdate",
     "RelativePath": "api/hr/employee/emp-basic-info-update",
     "HttpMethod": "POST",
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmployeeBySlug",
     "RelativePath": "api/hr/employee/emp-by-slug/{slug}",
     "HttpMethod": "GET",
@@ -48,7 +48,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmployeeByUsername",
     "RelativePath": "api/hr/employee/emp-by-username/{username}",
     "HttpMethod": "GET",
@@ -64,7 +64,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpContactUpdate",
     "RelativePath": "api/hr/employee/emp-contact-update",
     "HttpMethod": "POST",
@@ -80,7 +80,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpDetailsUpdate",
     "RelativePath": "api/hr/employee/emp-details-update",
     "HttpMethod": "POST",
@@ -96,7 +96,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpLoginAccess",
     "RelativePath": "api/hr/employee/emp-login-access",
     "HttpMethod": "POST",
@@ -112,7 +112,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpNokUpdate",
     "RelativePath": "api/hr/employee/emp-next-of-kin-update",
     "HttpMethod": "POST",
@@ -128,7 +128,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpPayElemList",
     "RelativePath": "api/hr/employee/emp-pay-elem-list",
     "HttpMethod": "POST",
@@ -144,7 +144,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpSalaryUpdate",
     "RelativePath": "api/hr/employee/emp-salary-update",
     "HttpMethod": "POST",
@@ -160,7 +160,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpSavePayElem",
     "RelativePath": "api/hr/employee/emp-save-pay-elem",
     "HttpMethod": "POST",
@@ -176,7 +176,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "EmpStatutoryUpdate",
     "RelativePath": "api/hr/employee/emp-statutory-update",
     "HttpMethod": "POST",
@@ -192,7 +192,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Erp.Api.Controllers.User.EmployeeController",
+    "ContainingType": "Erp.Api.Controllers.Hr.EmployeeController",
     "Method": "Employees",
     "RelativePath": "api/hr/employee/employee-list",
     "HttpMethod": "POST",
@@ -202,6 +202,38 @@
       {
         "Name": "request",
         "Type": "Erp.Helper.Dto.Request.Hr.Employee.EmployeesRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.Hr.PayrollController",
+    "Method": "GetPayslip",
+    "RelativePath": "api/hr/payroll/payslip",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Payroll.PayslipRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Erp.Api.Controllers.Hr.PayrollController",
+    "Method": "RunSalary",
+    "RelativePath": "api/hr/payroll/run-salary",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Erp.Helper.Dto.Request.Hr.Payroll.RunSalaryRequestDto",
         "IsRequired": true
       }
     ],

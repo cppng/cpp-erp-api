@@ -14,9 +14,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Erp.Infrastructure.Dapper.Hr.EmpPayElement;
+namespace Erp.Infrastructure.Dapper.Hr.Employee.EmpPayElement;
 
-public class EmpPayElemInfraService: IEmpPayElemInfraService
+public class EmpPayElemInfraService : IEmpPayElemInfraService
 {
     private readonly IDapperService _dapperService;
     private DynamicParameters _dbParams;
@@ -26,8 +26,8 @@ public class EmpPayElemInfraService: IEmpPayElemInfraService
         _dapperService = dapperService ?? throw new ArgumentNullException(nameof(dapperService));
     }
 
-   public async Task<EmpPayElemBaseResponseDto> SavePayElem(EmpPayElemCommand request, CancellationToken ct)
-   {
+    public async Task<EmpPayElemBaseResponseDto> SavePayElem(EmpPayElemCommand request, CancellationToken ct)
+    {
         try
         {
 

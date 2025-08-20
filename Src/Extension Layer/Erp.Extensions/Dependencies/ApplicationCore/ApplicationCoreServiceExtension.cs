@@ -1,5 +1,6 @@
 ﻿using Erp.Core.Hr.ByUsername.BusService;
 using Erp.Core.Hr.EmpBySlug.BusService;
+using Erp.Core.Payroll.RunSalary.BusService;
 using Erp.Core.User.EmpBasicUpdate.BusService;
 using Erp.Core.User.EmpContactUpdate.BusService;
 using Erp.Core.User.EmpDetailsUpdate.BusService;
@@ -48,6 +49,8 @@ namespace Erp.Extensions.Dependencies.ApplicationCore
             services.AddScoped<IEmpBySlugCoreService, EmpBySlugCoreService>();
             services.AddScoped<IEmpByUsernameCoreService, EmpByUsernameCoreService>();
             services.AddScoped<IEmpLoginAccessCoreService, EmpLoginAccessCoreService>();
+            services.AddScoped<IRunSalaryCoreService, RunSalaryCoreService>();
+            services.AddScoped<IPayslipCoreService, PayslipCoreService>();
 
             return services;
         }

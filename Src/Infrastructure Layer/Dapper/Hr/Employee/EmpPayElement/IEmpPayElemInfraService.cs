@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Erp.Infrastructure.Dapper.Hr.EmpPayElement
+namespace Erp.Infrastructure.Dapper.Hr.Employee.EmpPayElement
 {
     public interface IEmpPayElemInfraService
     {

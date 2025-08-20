@@ -1,7 +1,9 @@
 ﻿using Erp.Helper.Configuration.Auth;
-using Erp.Infrastructure.Dapper.Hr.EmployeeUpdate;
-using Erp.Infrastructure.Dapper.Hr.EmpPayElement;
-using Erp.Infrastructure.Dapper.Hr.NewEmployee;
+using Erp.Infrastructure.Dapper.Hr.Employee.EmployeeUpdate;
+using Erp.Infrastructure.Dapper.Hr.Employee.EmpPayElement;
+using Erp.Infrastructure.Dapper.Hr.Employee.NewEmployee;
+using Erp.Infrastructure.Dapper.Hr.Payroll.RunSalary;
+using Erp.Infrastructure.Dapper.Hr.Payroll.Salary;
 using Erp.Infrastructure.DbServices.Hr.Employee;
 using Erp.Infrastructure.DbServices.User.Login;
 using Erp.Infrastructure.DbServices.User.NewUser;
@@ -30,6 +32,8 @@ namespace Erp.Extensions.Dependencies.Infrastructure
             services.AddScoped<IEmployeeInfraService, EmployeeInfraService>();
             services.AddScoped<IEmployeeUpdateInfraService, EmployeeUpdateInfraService>();
             services.AddScoped<IEmpPayElemInfraService, EmpPayElemInfraService>();
+            services.AddScoped<IRunSalaryInfraService, RunSalaryInfraService>();
+            services.AddScoped<ISalaryInfraService, SalaryInfraService>();
 
             var appSettingsConfig = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
