@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Erp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da938567a127facdfddf2ff3720f905c3f394dc5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed4e72979de7c30500b4ade46e14014cd4e2f43f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Erp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Erp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
